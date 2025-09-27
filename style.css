@@ -1,0 +1,86 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Portada */
+.hero {
+  background: url('https://wallpapers.com/images/hd/spiderman-hd-v08jz3ec6qqmgzdy.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 4rem;
+  color: #e62429;
+}
+.hero p {
+  font-size: 1.5rem;
+}
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #e62429;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.hero button:hover {
+  background: #c91d22;
+}
+
+/* Secciones */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  color: #e62429;
+  margin-bottom: 20px;
+}
+
+/* Imágenes */
+.img-spidey {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+}
+.img-animada {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+}
+
+/* Galería */
+.galeria {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+  background: #e62429;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  margin-top: 40px;
+}
